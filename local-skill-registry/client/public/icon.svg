@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#1e3a2f"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)"/>
+  <!-- Circular badge glow -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#22c55e" stroke-width="6" opacity="0.4" stroke-dasharray="12 12"/>
+  <!-- Central emblem: Handshake/Tool/Emblem -->
+  <path d="M160 270 L220 330 L352 198" fill="none" stroke="url(#goldGrad)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Wrench and hammer subtle silhouette -->
+  <circle cx="256" cy="140" r="32" fill="#e2e8f0"/>
+  <path d="M216 380 C216 340, 296 340, 296 380 Z" fill="#e2e8f0"/>
+  <!-- Rural wheat sprout on side -->
+  <path d="M120 360 Q150 300 170 230 Q140 270 120 360" fill="#4ade80" opacity="0.8"/>
+  <path d="M392 360 Q362 300 342 230 Q372 270 392 360" fill="#4ade80" opacity="0.8"/>
+</svg>

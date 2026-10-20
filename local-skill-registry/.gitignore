@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build files
+dist/
+build/
+
+# Local database data and binaries
+.mongo-data/
+server/data/
+server/bin/
+data/
+bin/
+*.exe
+*.wt
+*.turtle
+diagnostic.data/
+journal/
+
+# Python cache and virtual environments
+__pycache__/
+.venv/
+venv/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db

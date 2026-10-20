@@ -1,0 +1,19 @@
+{
+  "short_name": "SkillRegistry",
+  "name": "Local Skill Registry | ग्रामीण कौशल्य नोंदणी",
+  "description": "Discover verified informal rural workers with trust and privacy safeguards",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f8fafc",
+  "theme_color": "#14532d",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["utilities", "business", "community"]
+}

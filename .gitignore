@@ -1,0 +1,12 @@
+# Root .gitignore
+ven/
+venv/
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
